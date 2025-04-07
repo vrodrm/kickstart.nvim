@@ -910,7 +910,7 @@ require('lazy').setup({
       ---@diagnostic disable-next-line: missing-fields
       require('rose-pine').setup {
         styles = {
-          comments = { italic = false }, -- Disable italics in comments
+          italic = false,
         },
       }
 
